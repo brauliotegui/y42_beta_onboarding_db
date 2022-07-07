@@ -1,0 +1,17 @@
+{
+  "$schema": "https://s.y42.com/integrations/file-upload/0.0.0/source.json#csv",
+  "content-type": "text/csv",
+  "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_betaonboarding_56f73616f4a340f3958391da0a802cc8/o?uploadType=resumable&upload_id=ADPycduNLdvWa6OuJ890wXDtel9EProu-v5WT0QBIWJnX5O4faJR2U5B-hM6MTIVqAGVwRjovYFqEKGCd4wP-43QxBdCTg",
+  "originalName": "reviews.csv",
+  "size": "2112243",
+  "uri": "gs://y42_betaonboarding_56f73616f4a340f3958391da0a802cc8/userUploads/v2/41/file-upload/95c274e4-271f-4ab9-86c9-88436fd4e1f3",
+  "csv_options": {
+    "field_delimiter": ",",
+    "allow_quoted_new_lines": true,
+    "null_marker": "",
+    "ignore_unknown_values": false,
+    "encoding": "UTF-8",
+    "quote": "\"",
+    "skip_leading_rows": null
+  }
+}
