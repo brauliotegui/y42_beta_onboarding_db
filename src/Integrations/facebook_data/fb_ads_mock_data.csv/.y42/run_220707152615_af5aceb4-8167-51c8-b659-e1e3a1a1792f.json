@@ -1,6 +1,6 @@
 {
   "request_id": "220707152615_af5aceb4-8167-51c8-b659-e1e3a1a1792f",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "d3c13e2a-e654-410d-9452-b34ed3f48b25",
     "source_settings": {
@@ -53,7 +53,66 @@
     "write_disposition": "TRUNCATE",
     "external_id": "525b2544-e66d-4624-820e-5ac2bb57ef4f",
     "storage_file": "gs://y42_betaonboarding_56f73616f4a340f3958391da0a802cc8/userUploads/v2/41/file-upload/9e977707-760e-44f6-a240-818731919645",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-07T15:27:24.563299+00:00",
+    "row_count": 13447,
+    "current_import_row_count": 13447,
+    "size_in_bytes": 1438652,
+    "columns": [
+      {
+        "field_name": "account_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "date_start",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "ad_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "adset_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "campaign_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "ctr",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "impressions",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "reach",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "spend",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      }
+    ],
+    "table_name": "220707152615_af5aceb4-8167-51c8-b659-e1e3a1a1792f",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_betaonboarding_56f73616f4a340f3958391da0a802cc8&t=220707152615_af5aceb4-8167-51c8-b659-e1e3a1a1792f&page=table"
   },
-  "_signature": "TR7uKAHqtJfGaTO6E8crWF562Kd1yyczFWMeWH6VJ+E2pz5+XR19uGTSja0/MSBSmvGk4pzYu1so8lxUtegPBg=="
+  "finished_at": "2022-07-07T15:27:24.563431+00:00",
+  "_signature": "nb+Zwr5hnIcx1D/ptJ6Y+/1Z6Ji6Zy4YH36wCcRsdh6Dgyo3NX7XkWctI4gdMm6ceeZMcy7tu4nQC4MLydgXAw=="
 }
