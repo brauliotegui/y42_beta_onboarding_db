@@ -1,0 +1,51 @@
+{
+  "request_id": "220707152632_51d56c62-6a35-5623-ac7c-9775a7cd3307",
+  "status": "pending",
+  "request": {
+    "target_credentials": "d3c13e2a-e654-410d-9452-b34ed3f48b25",
+    "source_settings": {
+      "$schema": "https://s.y42.com/integrations/file-upload/0.0.0/source.json#csv"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/integrations/file-upload/0.0.0/source.json#csv",
+      "content-type": "text/csv",
+      "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_betaonboarding_56f73616f4a340f3958391da0a802cc8/o?uploadType=resumable&upload_id=ADPycdueyVunJsWziOvQvXXbwhbLIScNlJLGCCYlI6rFDDn44zwRl6w1YasfIIC4AhbPkjcQ4ynKHTr3lqRF1nyKRUBHrQ",
+      "originalName": "google_ads_mock_data.csv",
+      "size": "7574198",
+      "uri": "gs://y42_betaonboarding_56f73616f4a340f3958391da0a802cc8/userUploads/v2/41/file-upload/0ff0c8c5-8020-4ee4-bb5b-35ab4f6f5ba1",
+      "csv_options": {
+        "field_delimiter": ",",
+        "allow_quoted_new_lines": true,
+        "null_marker": "",
+        "ignore_unknown_values": false,
+        "encoding": "UTF-8",
+        "quote": "\"",
+        "skip_leading_rows": null
+      }
+    },
+    "created_at": "2022-07-07T15:26:32.995125+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/facebook_data/google_ads_mock_data.csv",
+        "id": "41:4e5151c8-9a50-4091-b95f-1feae9732614",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "brauliotegui",
+        "repo": "y42_beta_onboarding_db",
+        "commit_sha": "0a137a099b6bbdb4a729e4c0fb214a1069a798d8"
+      }
+    },
+    "context": {
+      "company_id": 41,
+      "company_slug": "tmnz",
+      "triggered_by_type": "user",
+      "triggered_by_id": "48",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-07T15:26:32.995125+00:00",
+  "_signature": "3/4b/tgRs+7W9yP+yvdNLQPMRvmzk8rn9SV7QKvA0tk6EkSF3qTIbJj35alWoB8tDYN2lyMmDTiR8vc0BCs4BA=="
+}
