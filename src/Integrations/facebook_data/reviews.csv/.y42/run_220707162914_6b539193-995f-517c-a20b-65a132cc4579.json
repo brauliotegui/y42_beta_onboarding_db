@@ -1,6 +1,6 @@
 {
   "request_id": "220707162914_6b539193-995f-517c-a20b-65a132cc4579",
-  "status": "pending",
+  "status": "invalid",
   "request": {
     "target_credentials": "d3c13e2a-e654-410d-9452-b34ed3f48b25",
     "source_settings": {
@@ -55,5 +55,8 @@
     "storage_file": "gs://y42_betaonboarding_56f73616f4a340f3958391da0a802cc8/userUploads/v2/41/file-upload/95c274e4-271f-4ab9-86c9-88436fd4e1f3",
     "partial": false
   },
-  "_signature": "cE31T6jvdhwZGeI9WM9EogMGAz0ji/k6ZFuyJAMVusGLJtXdV+y8gVYp9cwl9cTu+TieZYzft+LFxih9WTu3Bg=="
+  "failed_at": "2022-07-07T16:30:29.615623+00:00",
+  "error_code": 400,
+  "error_message": "400 Error while reading data, error message: Error detected while parsing row starting at position: 57. Error: Missing close double quote (\") character.",
+  "_signature": "CRNi73ol/+G716kh91GxX7FC2v5oHz3TVnvGKkfOo/3Rs6AuRV+Ri0h2ymwCdtuDx711eRRaXvI/NMkdRskWBg=="
 }
