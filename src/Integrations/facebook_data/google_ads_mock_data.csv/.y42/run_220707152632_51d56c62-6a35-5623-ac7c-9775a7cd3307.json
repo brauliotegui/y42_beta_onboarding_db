@@ -1,6 +1,6 @@
 {
   "request_id": "220707152632_51d56c62-6a35-5623-ac7c-9775a7cd3307",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "d3c13e2a-e654-410d-9452-b34ed3f48b25",
     "source_settings": {
@@ -53,7 +53,76 @@
     "write_disposition": "TRUNCATE",
     "external_id": "6689b5e0-58e0-4982-b2e4-0c600febbe9e",
     "storage_file": "gs://y42_betaonboarding_56f73616f4a340f3958391da0a802cc8/userUploads/v2/41/file-upload/0ff0c8c5-8020-4ee4-bb5b-35ab4f6f5ba1",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-07T15:27:32.828487+00:00",
+    "row_count": 74936,
+    "current_import_row_count": 74936,
+    "size_in_bytes": 10205499,
+    "columns": [
+      {
+        "field_name": "day",
+        "data_type": "DATE",
+        "external_data_type": "DATE"
+      },
+      {
+        "field_name": "adid",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "account",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "adgroup",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "adtype",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "campaign",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "cost",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "engagements",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "impressions",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "interactions",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "views",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220707152632_51d56c62-6a35-5623-ac7c-9775a7cd3307",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_betaonboarding_56f73616f4a340f3958391da0a802cc8&t=220707152632_51d56c62-6a35-5623-ac7c-9775a7cd3307&page=table"
   },
-  "_signature": "AQHrOnVZ8p34qNZinbkbMKJ1qXHsBCs7WpLvyNu6ULyqCmSFkJWuHjopLbVT2J/xkO/K4dnOVBFoipGtEyHoAg=="
+  "finished_at": "2022-07-07T15:27:32.828841+00:00",
+  "_signature": "dBgES+v4XVp1mYU9te6apdYAY+XJdf56rO7q46Iwqp5LIewK1AW170LryWe09C46uYDHS+Nl8uCuDdVCgiTqBA=="
 }
