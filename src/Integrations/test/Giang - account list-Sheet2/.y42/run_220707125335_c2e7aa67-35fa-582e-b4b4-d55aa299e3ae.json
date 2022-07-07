@@ -1,6 +1,6 @@
 {
   "request_id": "220707125335_c2e7aa67-35fa-582e-b4b4-d55aa299e3ae",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "cbdd3b75-b9ab-458b-ad8a-ae28a06443c5",
     "target_credentials": "d3c13e2a-e654-410d-9452-b34ed3f48b25",
@@ -48,7 +48,61 @@
     "write_disposition": "TRUNCATE",
     "external_id": "35f59954-5d94-43d3-81ae-1f94b07e677f",
     "storage_file": "gs://y42_betaonboarding_56f73616f4a340f3958391da0a802cc8/userUploads/v2/41/singer-google-sheets/50235abf-5006-4217-bd03-45a5cef74189",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-07T12:54:31.333876+00:00",
+    "row_count": 26,
+    "current_import_row_count": 26,
+    "size_in_bytes": 4321,
+    "columns": [
+      {
+        "field_name": "Account_Name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "Status",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "Account_Owner_Alias",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "Current_Contract_Start_Date",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "Current_Contract_End_Date",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "Date_of_First_Contract",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "Activity_Score__past_7_days_",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "Role",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "Comment___Giang",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220707125335_c2e7aa67-35fa-582e-b4b4-d55aa299e3ae",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_betaonboarding_56f73616f4a340f3958391da0a802cc8&t=220707125335_c2e7aa67-35fa-582e-b4b4-d55aa299e3ae&page=table"
   },
-  "_signature": "EVWzN54NcSxsVvPb5Shap813krPDstlFwSpdvDfKxxWWricV3vBJpncqtJCC3OK9JEHYGT7WCflwW7LneQnUAA=="
+  "finished_at": "2022-07-07T12:54:31.334012+00:00",
+  "_signature": "yzN1OUKW3kTZd3REToEZo7vPA2W6CMrvlkLzQ3RmIlKs2hyF6PgkDpLWFj4czvKtm0n5SZCgeb1ay9cF6x2OCA=="
 }
