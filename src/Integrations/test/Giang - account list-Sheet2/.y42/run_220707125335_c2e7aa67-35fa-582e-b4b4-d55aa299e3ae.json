@@ -1,0 +1,46 @@
+{
+  "request_id": "220707125335_c2e7aa67-35fa-582e-b4b4-d55aa299e3ae",
+  "status": "pending",
+  "request": {
+    "source_credentials": "cbdd3b75-b9ab-458b-ad8a-ae28a06443c5",
+    "target_credentials": "d3c13e2a-e654-410d-9452-b34ed3f48b25",
+    "source_settings": {
+      "$schema": "https://s.y42.com/integrations/singer-google-sheets/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/integrations/singer-google-sheets/0.0.0/table",
+      "columns": [
+        "auto_detect"
+      ],
+      "import": "1xBK5KOUXKo76IwtjbDtwuWNkbTMgLwbqJ8vwCHsqoDs/Sheet2",
+      "_datos_write_settings": {
+        "max_flatten_depth": 0,
+        "decimals": false
+      }
+    },
+    "created_at": "2022-07-07T12:53:35.312152+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/test/Giang - account list-Sheet2",
+        "id": "41:4e5151c8-9a50-4091-b95f-1feae9732614",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "brauliotegui",
+        "repo": "y42_beta_onboarding_db",
+        "commit_sha": "d37782284f9e4b86c0727885e226567bd1ba4ec6"
+      }
+    },
+    "context": {
+      "company_id": 41,
+      "company_slug": "tmnz",
+      "triggered_by_type": "user",
+      "triggered_by_id": "48",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-07T12:53:35.312152+00:00",
+  "_signature": "rTRPHk9CgbUQpapcJQWr8h8z8kM4fGvfxnsMgZc+WkBzdH79VuJKhCXtePRezhHZu15Haj9i87w60FgR7TEKCQ=="
+}
