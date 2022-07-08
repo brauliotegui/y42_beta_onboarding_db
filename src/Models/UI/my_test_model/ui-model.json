@@ -17,7 +17,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "-739.2892561983472 -309.60377358490564"
+      "location": "-866.2892561983472 -309.60377358490564"
     },
     {
       "key": "48f1acf2-2424-48d0-8ac9-f34c1203d56c",
@@ -185,7 +185,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "-511.3223140495868 -309.07547169811323"
+      "location": "-450.3223140495868 -310.07547169811323"
     },
     {
       "key": "9e2372e4-b83b-4a9e-af67-c92e53a78f49",
@@ -324,17 +324,47 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "-256.7520661157025 -309.92452830188677"
+      "location": "-218.75206611570252 -309.92452830188677"
+    },
+    {
+      "key": "44c09fa8-eccc-428c-b43d-93301c42a7b2",
+      "type": "FIELDS",
+      "category": "FIELDS",
+      "transformationStep": {
+        "id": "44c09fa8-eccc-428c-b43d-93301c42a7b2",
+        "title": "",
+        "transformationType": "FIELDS",
+        "transformObject": [
+          {
+            "target": "cost",
+            "source": "spend",
+            "type": "FLOAT",
+            "display": true,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-663.9606611570248 -323.10377358490564"
     }
   ],
   "linkDataArray": [
     {
-      "from": "628aa34b-c7ec-49e3-94e3-c5c8f7c46cd3",
-      "to": "48f1acf2-2424-48d0-8ac9-f34c1203d56c"
-    },
-    {
       "from": "48f1acf2-2424-48d0-8ac9-f34c1203d56c",
       "to": "9e2372e4-b83b-4a9e-af67-c92e53a78f49"
+    },
+    {
+      "from": "628aa34b-c7ec-49e3-94e3-c5c8f7c46cd3",
+      "to": "44c09fa8-eccc-428c-b43d-93301c42a7b2"
+    },
+    {
+      "from": "44c09fa8-eccc-428c-b43d-93301c42a7b2",
+      "to": "48f1acf2-2424-48d0-8ac9-f34c1203d56c"
     }
   ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
