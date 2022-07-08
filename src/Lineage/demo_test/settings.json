@@ -1,0 +1,103 @@
+{
+  "$schema": "https://s.y42.com/frontend/0.0.1/lineage/lineage-settings.json",
+  "linkDataArray": [
+    {
+      "from": "src/Integrations/facebook_data/google_ads_mock_data.csv",
+      "to": "src/Models/UI/fb_data/google_ads_data"
+    },
+    {
+      "from": "src/Integrations/facebook_data/fb_ads_mock_data.csv",
+      "to": "src/Models/UI/my_test_model/my_test_model"
+    },
+    {
+      "from": "src/Integrations/facebook_data/fb_ads_mock_data.csv",
+      "to": "src/Models/UI/test_model_raul/test_model_raul"
+    }
+  ],
+  "nodeDataArray": [
+    {
+      "key": "d2ded49b-df43-4c83-a7d6-0d11715b4ba2",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "stickyNode",
+      "size": "190 190",
+      "location": "502.85714285714295 364.28571428571445",
+      "background": "#FFF1CC",
+      "text": "TEST",
+      "textColor": "#03053D",
+      "shadowColor": "#00000050",
+      "shadowOffset": "1 12",
+      "shadowBlur": 7,
+      "font": "normal 20px Segoe UI",
+      "group": "",
+      "layerName": "bringToFront",
+      "zOrder": 2
+    },
+    {
+      "key": "src/Integrations/facebook_data",
+      "category": "Integration",
+      "location": "12 123",
+      "isGroup": true
+    },
+    {
+      "key": "src/Integrations/facebook_data/fb_ads_mock_data.csv",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/facebook_data"
+    },
+    {
+      "key": "src/Integrations/facebook_data/google_ads_mock_data.csv",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/facebook_data"
+    },
+    {
+      "key": "src/Models/UI/fb_data",
+      "category": "UiModel",
+      "location": "392.0456949966159 51",
+      "isGroup": true
+    },
+    {
+      "key": "src/Models/UI/fb_data/google_ads_data",
+      "category": "UiModel",
+      "isGroup": false,
+      "group": "src/Models/UI/fb_data"
+    },
+    {
+      "key": "src/Models/UI/my_test_model",
+      "category": "UiModel",
+      "location": "392.0456949966159 123",
+      "isGroup": true
+    },
+    {
+      "key": "src/Models/UI/my_test_model/my_test_model",
+      "category": "UiModel",
+      "isGroup": false,
+      "group": "src/Models/UI/my_test_model"
+    },
+    {
+      "key": "src/Models/UI/test_model_raul",
+      "category": "UiModel",
+      "location": "392.0456949966159 195",
+      "isGroup": true
+    },
+    {
+      "key": "src/Models/UI/test_model_raul/test_model_raul",
+      "category": "UiModel",
+      "isGroup": false,
+      "group": "src/Models/UI/test_model_raul"
+    },
+    {
+      "key": "src/Models/SQL/new_sql",
+      "category": "SqlModel",
+      "location": "12 257",
+      "isGroup": true
+    },
+    {
+      "key": "src/Models/SQL/new_sql/table_1",
+      "category": "SqlModel",
+      "isGroup": false,
+      "group": "src/Models/SQL/new_sql"
+    }
+  ]
+}
