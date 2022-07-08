@@ -1,0 +1,106 @@
+{
+  "request_id": "220708072353_187aceee-4a78-53d5-91c3-fd33945d83c0",
+  "status": "ready",
+  "request": {
+    "target_credentials": "d3c13e2a-e654-410d-9452-b34ed3f48b25",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
+      "output_key": "9e2372e4-b83b-4a9e-af67-c92e53a78f49"
+    },
+    "created_at": "2022-07-08T07:23:53.020937+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/UI/my_test_model/my_test_model",
+        "id": "41:4e5151c8-9a50-4091-b95f-1feae9732614",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "brauliotegui",
+        "repo": "y42_beta_onboarding_db",
+        "commit_sha": "c98684eb9cbe8d49a4041c59176a6b7ec8157fa3"
+      }
+    },
+    "context": {
+      "company_id": 41,
+      "company_slug": "tmnz",
+      "triggered_by_type": "user",
+      "triggered_by_id": "31",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-08T07:23:53.020937+00:00",
+  "finished_at": "2022-07-08T07:24:35.468783+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-07-08T07:24:35.468639+00:00",
+    "row_count": 13447,
+    "current_import_row_count": 13447,
+    "size_in_bytes": 1546228,
+    "external_id": "24649795-9e6c-4124-a498-41abcef3c6c8",
+    "columns": [
+      {
+        "field_name": "account_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "date_start",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "ad_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "adset_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "campaign_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "ctr",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "impressions",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "reach",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "spend",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "new_column",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      }
+    ],
+    "table_name": "220708072353_187aceee-4a78-53d5-91c3-fd33945d83c0",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_betaonboarding_56f73616f4a340f3958391da0a802cc8&t=220708072353_187aceee-4a78-53d5-91c3-fd33945d83c0&page=table"
+  },
+  "_signature": "stS7rfYrp0z5fyh50kwdOSrVaCuwL+KV2bw2haahC5sA1r4TQtn1Ozfe3Ri906A5x6bk5JLw+bebiz1EHViyBA=="
+}
