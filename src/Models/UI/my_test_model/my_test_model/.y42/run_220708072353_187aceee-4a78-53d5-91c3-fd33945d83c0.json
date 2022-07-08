@@ -1,0 +1,38 @@
+{
+  "request_id": "220708072353_187aceee-4a78-53d5-91c3-fd33945d83c0",
+  "status": "pending",
+  "request": {
+    "target_credentials": "d3c13e2a-e654-410d-9452-b34ed3f48b25",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
+      "output_key": "9e2372e4-b83b-4a9e-af67-c92e53a78f49"
+    },
+    "created_at": "2022-07-08T07:23:53.020937+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/UI/my_test_model/my_test_model",
+        "id": "41:4e5151c8-9a50-4091-b95f-1feae9732614",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "brauliotegui",
+        "repo": "y42_beta_onboarding_db",
+        "commit_sha": "c98684eb9cbe8d49a4041c59176a6b7ec8157fa3"
+      }
+    },
+    "context": {
+      "company_id": 41,
+      "company_slug": "tmnz",
+      "triggered_by_type": "user",
+      "triggered_by_id": "31",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-08T07:23:53.020937+00:00",
+  "_signature": "pOXrhaqk4IboFFP2qd9dcRzQ0DWwWYc9lN4I4SPGZufIozFlvHMS68k4DkOf1/EEWwr7m5ueasnl7C9M+DLgCg=="
+}
