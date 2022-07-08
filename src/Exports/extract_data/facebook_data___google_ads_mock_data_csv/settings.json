@@ -1,0 +1,4 @@
+{
+  "$schema": "https://s.y42.com/exports/csv/0.0.0/table",
+  "datasource_table": "src/Integrations/facebook_data/google_ads_mock_data.csv"
+}
