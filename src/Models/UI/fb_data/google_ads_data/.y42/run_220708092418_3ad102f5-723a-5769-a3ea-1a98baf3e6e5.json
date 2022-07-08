@@ -1,6 +1,6 @@
 {
   "request_id": "220708092418_3ad102f5-723a-5769-a3ea-1a98baf3e6e5",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "d3c13e2a-e654-410d-9452-b34ed3f48b25",
     "source_settings": {
@@ -34,5 +34,58 @@
     }
   },
   "created_at": "2022-07-08T09:24:18.618366+00:00",
-  "_signature": "L3I5UjcuN9swuQO/uwsKivWneGpT1zJC7Kp1a3XVmKdS7UdQr3glCFg+eOWGMvmQHuPDQYC31xhU8LnSH/XsBQ=="
+  "finished_at": "2022-07-08T09:24:38.037795+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-07-08T09:24:38.037684+00:00",
+    "row_count": 74936,
+    "current_import_row_count": 74936,
+    "size_in_bytes": 7807547,
+    "external_id": "ba436244-c370-4cfc-ae4e-bfedb9c7d7e9",
+    "columns": [
+      {
+        "field_name": "day",
+        "data_type": "DATE",
+        "external_data_type": "DATE"
+      },
+      {
+        "field_name": "adid",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "account",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "adgroup",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "adtype",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "campaign",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "cost",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220708092418_3ad102f5-723a-5769-a3ea-1a98baf3e6e5",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_betaonboarding_56f73616f4a340f3958391da0a802cc8&t=220708092418_3ad102f5-723a-5769-a3ea-1a98baf3e6e5&page=table"
+  },
+  "_signature": "LHPbmCT6R7V/jJQrliRRz6fmQum4NHjm1xDZXU794op7HPQd/V8nD+05esexq7Ax5wq1CXFX7nUlYgDRlZz5Cw=="
 }
